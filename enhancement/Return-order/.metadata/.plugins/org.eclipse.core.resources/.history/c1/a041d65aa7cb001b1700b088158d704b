@@ -1,0 +1,14 @@
+package com.componentprocessing.microservice.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class PaymentDetailsDTO {
+	@JsonProperty
+	private String requestId;
+	@JsonProperty
+	private Integer cardNumber;
+	@JsonProperty
+	private int creditLimit;
+	@JsonProperty
+	private int processingCharge;
+}

@@ -1,0 +1,5 @@
+package com.payment.microservice.repository;
+
+public interface PaymentRepository {
+
+}

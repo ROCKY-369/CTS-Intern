@@ -1,0 +1,5 @@
+package com.returnorder.template;
+
+public class RestTemplateClass {
+
+}

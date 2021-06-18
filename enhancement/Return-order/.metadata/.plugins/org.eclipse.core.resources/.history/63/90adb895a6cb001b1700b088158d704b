@@ -1,0 +1,5 @@
+package com.componentprocessing.microservice.dto;
+
+public class PaymentDetailsDTO {
+
+}

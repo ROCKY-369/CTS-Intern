@@ -1,0 +1,24 @@
+package com.componentprocessing.microservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.componentprocessing.microservice.exceptions.ResponseNotFoundException;
+import com.componentprocessing.microservice.repository.ProcessResponseRepo;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+public class ProcessResponseServiceImpl implements ProcessResponseService {
+	
+	@Autowired
+	ProcessResponseRepo repo;
+	
+	@Override
+	public String deleteResponse(String responseId){
+		repo.deleteById(responseId);
+		return "Successful";
+	}
+
+}

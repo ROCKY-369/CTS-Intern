@@ -1,0 +1,5 @@
+package com.componentprocessing.microservice.service;
+
+public class ProcessResponseServiceImpl {
+
+}
